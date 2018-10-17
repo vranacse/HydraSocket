@@ -14,21 +14,21 @@ class MainActivity : AppCompatActivity() {
     * dataToPush
     *
     */
-    private var dataToPush: String = "{\"a\": \"subscribe\", \"v\": [1, 2], \"m\": \"market_status\"}"
+    private var dataToPush: String = ""
 
     /*
     *
     * URL for Socket
     *
     */
-    private var url: String = "wss://prime.tradelab.in/hydrasocket/v2/websocket"
+    private var url: String = ""
 
     /*
       *
       * HeartBeat dataToPush
       *
       */
-    private var heartbeatDataToPush: String = " {\"a\": \"h\", \"v\": [], \"m\": \"\"}"
+    private var heartbeatDataToPush: String = " "
 
     /*
       *
