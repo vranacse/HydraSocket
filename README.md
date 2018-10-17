@@ -1,5 +1,7 @@
 # HydraSocket
-Socket implementation for Android  based on okhttp
+Socket implementation for Android  based on okhttp 
+
+
 Kotlin DSL:
 
         /*
